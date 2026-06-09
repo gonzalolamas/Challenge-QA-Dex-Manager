@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+test-results/
+playwright-report/
+blob-report/
+src/fixtures/tc*.png
+src/fixtures/tc*.jpg
+src/fixtures/large-image.jpg
