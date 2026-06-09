@@ -54,7 +54,7 @@ DEX_PASSWORD=qwerty1
 
 El proyecto sigue una arquitectura estricta de Page Object Model (POM) para separar la lógica de los elementos de la interfaz de la lógica propia de los casos de prueba:
 
-
+```
 Challenge-QA-Dex-Manager/
 ├── src/
 │   ├── fixtures/          # Archivos locales estáticos para simular subidas (ej. sample.png)
@@ -69,6 +69,7 @@ Challenge-QA-Dex-Manager/
 ├── playwright.config.ts   # Configuración global de Playwright (Timeouts, browsers, reportes)
 ├── tsconfig.json          # Configuración del compilador de TypeScript
 └── README.md              # Documentación técnica del repositorio
+```
 
 Componentes Clave:
 
